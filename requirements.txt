@@ -1,6 +1,1 @@
-streamlit
-pickle
 nltk
-nltk.corpus
-string
-nltk.stem.porter
