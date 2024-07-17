@@ -25,7 +25,8 @@ def transform_text(text):
         y.append(ps.stem(i)) # to stem down loving to love and remove e and ings etc.
     return " ".join(y)
 # tfidf = pickle.load(open('vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+# model = pickle.load(open('model.pkl','rb'))
+model = pickle.load('model.pkl', 'rb', fix_imports=True, encoding='ASCII', errors='strict', buffers=None)
 
 st.title("SMS Spam Dection")
 
