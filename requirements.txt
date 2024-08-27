@@ -1,1 +1,6 @@
 nltk
+streamlit
+pickle
+string
+nltk.corpus
+nltk.stem.porter
